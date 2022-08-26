@@ -1,0 +1,82 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #213053;
+  }
+   
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+  }
+   
+  .header__logo {
+    height: 30px;
+  }
+  a {
+    text-decoration: none;
+    color: #213053;
+  }
+  header a {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  button {
+    font-family: 'Raleway', sans—serif;
+    font-size: 15px;
+    color: #fff;
+    background-color: #23a030;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
+  }
+ 
+   
+  .about__sun-image {
+    width: 100px;
+    height: 100px;
+  }
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 115px;
+    padding-top: 115px;
+  }
+  
+  .about__image {
+    width: 500px;
+  }
+   
+  .about__sun-image {
+    width: 100px;
+    height: 100px;
+  }
+  .about__info {
+    max-width: 550px;
+  }
+  .about h1 {
+    font-size: 70px;
+    line-height: 76px;
+  }
+   
+  .about p {
+    font-size: 18px;
+    line-height: 30px;
+    opacity: 0.8;
+  }
+   
+  .about button {
+    font-size: 18px;
+    padding: 20px 25px;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  .about {
+    /* ... */
+    background: url('img/back.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+  }

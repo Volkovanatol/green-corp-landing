@@ -80,3 +80,75 @@ body {
     background-position: center;
     background-size: cover;
   }
+  .form {
+    width: 550px;
+    background-color: #1D263A;
+    color: #fff;
+    padding-top: 115px; 
+    padding-bottom: 115px;
+    text-align: center;
+  }
+  .form h1 {
+    font-size:48px;
+  }
+  .form p {
+    font-size:18px;
+    opacity: 0.65;
+   }
+   .form__group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .form form{
+    display:grid;
+    grid-gap:20px;
+    margin-top:60px;
+  }
+  .form label{
+  font-size:18px; 
+  font-weight:600px;
+  margin-bottom:15px;
+  }
+  .form select{
+  font-size:18px; 
+  color:#213053;
+  height:60px;
+  padding:0,0,20px,20px;
+  border-radius:15px;
+  border: none;
+  }
+  .form___submit{
+  font-size:18px;
+  font-weight:600px;
+  margin-top:40px;
+  }
+select {
+    appearance: none;
+  }
+input {
+    outline: none;
+  }
+footer{
+  font-weight:600px;
+  font-size:16px; 
+  text-align: center;
+  opacity: 0.5;
+}
+.footer__group {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin-right: 80px;
+}
+.footer__links a{
+display: flex;
+flex-direction: column;
+text-align: left;
+margin: 25px;  
+}
+footer h3{
+  font-size: 16px;
+  opacity: 0.7;
+  margin: 30px;
+}
